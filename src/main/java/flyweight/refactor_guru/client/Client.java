@@ -28,6 +28,8 @@ public class Client {
         System.out.println("---------------------");
         System.out.println("Total: " + ((TREES_TO_DRAW * 8 + TREE_TYPES * 30) / 1024 / 1024) +
                 "MB (instead of " + ((TREES_TO_DRAW * 38) / 1024 / 1024) + "MB)");
+
+        System.out.println("End of Program");
     }
 
     private static int random(int min, int max) {
